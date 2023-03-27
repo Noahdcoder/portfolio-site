@@ -123,7 +123,7 @@ export default function ContactForm() {
       {submitted && (
         <p>
           Thanks for contacting me! <br /> You will get a response soon before
-          you say Lorem Ipsum Dolor😎
+          you can say Lorem Ipsum Dolor😎
         </p>
       )}
     </form>
