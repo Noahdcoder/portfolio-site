@@ -23,7 +23,7 @@ export default function Intro() {
       </p>
       <div className="text-center">
         <a
-          href="/Noah-Aghedo-Resume.pdf"
+          href="/Noah_Aghedo_Resume.pdf"
           download
           className="block w-full text-2xl p-4 bg-blue animate-bounce cursor-pointer hover:animate-shine"
         >
