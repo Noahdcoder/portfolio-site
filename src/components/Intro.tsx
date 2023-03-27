@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -8,6 +9,10 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Intro() {
+  const [bounce, setBounce] = useState("animate-bounce");
+  function handleClick() {
+    setBounce("");
+  }
   return (
     <div className="space-y-4">
       <h2 className="text-xl">Heyyy! 👋🏾</h2>
@@ -25,12 +30,13 @@ export default function Intro() {
         <a
           href="/Noah_Aghedo_Resume.pdf"
           download
-          className="block w-full text-2xl p-4 bg-blue animate-bounce cursor-pointer hover:animate-shine"
+          onClick={handleClick}
+          className={`${bounce} block w-full text-2xl p-4 bg-blue cursor-pointer`}
         >
           Download Resume <FontAwesomeIcon icon={faDownload} />
         </a>
       </div>
-      <div className="flex space-x-4 text-xl">
+      <div className="flex flex-wrap space-x-4 text-xl">
         <a href="https://github.com/Noahdcoder" target="_blank">
           <div className="flex flex-col">
             <FontAwesomeIcon icon={faGithub} className="hover:text-github" />

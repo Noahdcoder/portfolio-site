@@ -21,14 +21,6 @@ module.exports = {
         transparentGray: "rgba(128, 128, 128, 0.5)",
         veryTransparentGray: "rgba(128, 128, 128, 0.1)",
       },
-      animation: {
-        shine: "shine 1s",
-      },
-      keyframes: {
-        shine: {
-          "100%": { left: "125%" },
-        },
-      },
       fontFamily: {
         Fasthand: ["Fasthand", "cursive"],
       },
