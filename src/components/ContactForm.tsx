@@ -26,7 +26,7 @@ export default function ContactForm() {
     };
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("/api/sendgrid", {
         method: "POST",
         headers: {
           Accept: "application/json, text/plain, */*",

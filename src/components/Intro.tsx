@@ -36,7 +36,7 @@ export default function Intro() {
           Download Resume <FontAwesomeIcon icon={faDownload} />
         </a>
       </div>
-      <div className="flex space-x-4 text-xl">
+      <div className="grid grid-cols-2 justify-items-center items-center gap-4 md:flex md:space-x-4 text-xl">
         <a href="https://github.com/Noahdcoder" target="_blank">
           <div className="flex flex-col">
             <FontAwesomeIcon icon={faGithub} className="hover:text-github" />
