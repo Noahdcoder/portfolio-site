@@ -48,12 +48,40 @@ export default function Projects() {
           </p>
           <div className="flex space-x-4">
             <p>
-              <a href="https://noahdcoder.github.io/manage/">
+              <a href="https://noahdcoder.github.io/manage/" target="_blank">
                 <FontAwesomeIcon icon={faGlobe} /> Site
               </a>
             </p>
             <p>
-              <a href="https://github.com/Noahdcoder/manage">
+              <a href="https://github.com/Noahdcoder/manage" target="_blank">
+                <FontAwesomeIcon icon={faCode} /> Code
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="space-y-4 bg-veryTransparentGray p-8 rounded-xl hover:scale-105 transition duration-300">
+          <h4 className="text-xl">Noah&apos;s Movie Database</h4>
+          <div className="flex text-blue space-x-8">
+            <p className="bg-transparentGray p-2 rounded-lg">
+              TypeScipt + React + Next.js + Tailwind
+            </p>
+          </div>
+          <p>
+            Noah&apos;s Movie Database is a web app that lets users see trending
+            movies for the day and also enables users to search for their
+            favorite movies.
+          </p>
+          <div className="flex space-x-4">
+            <p>
+              <a href="https://aghedo-movies.vercel.app/" target="_blank">
+                <FontAwesomeIcon icon={faGlobe} /> Site
+              </a>
+            </p>
+            <p>
+              <a
+                href="https://github.com/Noahdcoder/movie-database"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faCode} /> Code
               </a>
             </p>
