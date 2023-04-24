@@ -67,7 +67,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <main className="grid grid-cols-1 md:grid-cols-2 text-white">
-        <div className="flex flex-col justify-between p-8 min-h-screen md:w-3/4">
+        <div className="flex flex-col space-y-4 justify-between p-8 min-h-screen md:w-3/4 md:space-y-0">
           <Header />
           <Intro />
           <p className="font-Fasthand text-4xl">Thanks!</p>
