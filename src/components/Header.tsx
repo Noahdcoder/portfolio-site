@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header>
@@ -12,7 +14,11 @@ export default function Header() {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>Blogs</li>
+          <li>
+            <Link href="/blogs" legacyBehavior>
+              <a>Blogs</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
