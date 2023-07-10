@@ -28,7 +28,7 @@ export default function Intro() {
       </p>
       <div className="text-center">
         <a
-          href="/Noah_Aghedo_Resume.pdf"
+          href="/Noah-Aghedo-Resume.pdf"
           download
           onClick={handleClick}
           className={`${bounce} block w-full text-2xl p-4 bg-blue cursor-pointer`}
